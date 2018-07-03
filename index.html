@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calendar</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link type="text/css" rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body><div class="wrapper">
+	  <main>
+		<div class="toolbar">
+			<div>
+				<input class="search-input" type="search" value="Search" size="30">
+				<i id="i-search" class="fa fa-search"></i>
+			</div>
+			<div class="switch-month">
+				<div onclick="switcMonth('bwd')" class="prev">&#10094;</div>
+				<div id="month-year"></div>
+				<div onclick="switcMonth('fwd')" class="next">&#10095;</div>
+			</div>		  
+		</div>
+		<div id = "calendar-container" class="calendar">
+		</div>
+	  </main>
+	</div>
+</html>
